@@ -1,10 +1,10 @@
 import React from 'react'
 import withLayout from './withLayout'
 
-function Home() {
+function About() {
   return (
     <div>
-    <h1>Welcome to my HomePage</h1>
+    <h1>About Me</h1>
     <div>
     <p>A home, or domicile, is a space used as a permanent or semi-permanent 
     residence for one or many humans. It is a fully or
@@ -26,4 +26,4 @@ function Home() {
   )
 }
 
-export default withLayout(Home)
+export default withLayout(About)
